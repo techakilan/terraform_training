@@ -14,7 +14,7 @@ terraform -help
 
 terraform -help plan
 
-## Enable tab completion in ubutnu
+## Enable tab completion in ubuntu
 
 $ touch ~/.bashrc
 
