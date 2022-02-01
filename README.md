@@ -1,6 +1,6 @@
-#TERRAFORM SETUP 
+# TERRAFORM SETUP 
 
-##In Ubuntu
+## In Ubuntu
 
 sudo apt-get update && sudo apt-get install -y gnupg software-properties-common curl
 
@@ -14,7 +14,7 @@ terraform -help
 
 terraform -help plan
 
-##Enable tab completion in ubutnu
+## Enable tab completion in ubutnu
 
 $ touch ~/.bashrc
 
