@@ -13,6 +13,12 @@ provider "aws" {
   region = "us-east-1"
 }
 
+resource "aws_sqs_queue" "terraform_queue1" {
+  name = "terraform-chapter1-queue1"
+  tags = {
+    Environment = "development"
+  }
+}
 
 
 resource "aws_sqs_queue" "terraform_queue2" {
