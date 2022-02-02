@@ -25,7 +25,7 @@ provider "aws"{
 }  
 
 ## Add first resource: a queue named "terraform-chapter1-queue1"
-
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sqs_queue  
 #### in main.tf
 resource "aws_sqs_queue" "terraform_queue1" {  
   name = "terraform-chapter1-queue1"  
@@ -60,7 +60,7 @@ terraform plan
 terraform apply  
 
 ## Add additional resource: a topic named "terraform-chapter1-topic1"
-
+https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic  
 #### in main.tf
 resource "aws_sns_topic" "terraform_topic1" {  
   name = "terraform-chapter1-topic1"  
